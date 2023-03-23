@@ -1,7 +1,7 @@
 // Add imports above this line
-import SimpleLightbox from "simplelightbox";
-import "node_modules/simplelightbox/dist/simple-lightbox.min.css";
 import { galleryItems } from './gallery-items';
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
 // Change code below this line
 const galleryContainer = document.querySelector('.gallery');
 let galleryMarkup = '';
